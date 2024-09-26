@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Learn Anywhere</title>
+		<link rel="stylesheet" href="../stylesheets/main.css" />
+		<link rel="stylesheet" href="../stylesheets/courses-section.css" />
+		<link rel="stylesheet" href="../stylesheets/about-section.css" />
+		<link rel="stylesheet" href="../stylesheets/home-section.css" />
+		<link rel="stylesheet" href="../stylesheets/contact-section.css" />
+		<link rel="stylesheet" href="../stylesheets/footer-section.css" />
+		<link rel="stylesheet" href="../stylesheets/responsive-style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+			integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<main>
+			<nav>
+				<div class="logo"><img src="../images/final.png" alt="" /></div>
+				<ul class="navlinks">
+					<li class="link"><a href="#home-section">Home</a></li>
+					<li class="link" id="course-link">
+						<a href="#courses-section">Courses</a>
+						<ul class="courses-list">
+							<li><a href="#">Web Development</a></li>
+							<li><a href="#">Data Science</a></li>
+							<li><a href="#">Graphic Designin</a></li>
+							<li><a href="#">Artificial Intelligence</a></li>
+							<li><a href="#">Digital Marketing</a></li>
+							<li><a href="#">Creative Writing</a></li>
+						</ul>
+					</li>
+					<li class="link"><a href="#about-section">About</a></li>
+					<li class="link">
+						<a href="#contact-section" id="nav-item">Contact</a>
+					</li>
+					<div class="rigesteration">
+						<button id="singun-btn" class="btn">
+							<a href="../html/login.html">Login</a>
+						</button>
+						<button id="singun-btn" class="btn">
+							<a href="../html/signup.html">Sign Up</a>
+						</button>
+					</div>
+				</ul>
+				<li class="menu"><i class="fa-solid fa-bars"></i></li>
+			</nav>
+			<section class="section" id="home-section">
+				<div class="left">
+					<div class="left-content">
+						<h2 class="home-heading">
+							<span>Learn</span> With Expert Anytime <span>Anywhere</span>
+						</h2>
+						<div class="courses-name">
+							<span class="text first-text">Courses</span>
+							<span class="text sec-text"></span>
+						</div>
+						<p class="details">
+							Discover our wide range of online courses for all skill levels.
+							Learn Machine Learning, AI, Web Development, Data Science, and
+							more from expert instructors.
+							<span class="details-para">Enroll now to boost your skills</span>
+							and grow your career!
+						</p>
+						<button class="btn enroll-btn">Enroll Now</button>
+					</div>
+				</div>
+				<div class="right">
+					<img id="home-image" src="../images/home-img.svg" alt="home-image" />
+				</div>
+			</section>
+
+			<section id="courses-section">
+				<h2 class="section-heading">Courses Offered</h2>
+				<p class="course-description">
+					Discover a wide range of online courses designed to help you gain new
+					skills and advance your career. From Machine Learning and AI to Web
+					Development and Data Science.
+					<span>We have a course for everyone.</span>
+				</p>
+				<div class="courses-container">
+					<div class="course-card">
+						<div class="card-image">
+							<img src="../images/ai.jpg" alt="" />
+						</div>
+						<div class="card-content">
+							<h3 class="card-heading">Artificial Intelligence</h3>
+							<p class="course-details">
+								Explore the world of AI and its impact on technology.
+							</p>
+							<div class="card-btns">
+								<button class="btn card-btn">Learn More</button>
+								<div class="card-action-btn">
+									<i class="fa-regular fa-thumbs-up o-btn"></i>
+									<i class="fa-regular fa-heart o-btn"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="course-card">
+						<div class="card-image">
+							<img src="../images/web-development.jpg" alt="" />
+						</div>
+						<div class="card-content">
+							<h3 class="card-heading">Web Development</h3>
+							<p class="course-details">
+								Master the skills to become a full-stack web developer.
+							</p>
+							<div class="card-btns">
+								<button class="btn card-btn">Learn More</button>
+								<div class="card-action-btn">
+									<i class="fa-regular fa-thumbs-up o-btn"></i>
+									<i class="fa-regular fa-heart o-btn"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="course-card">
+						<div class="card-image">
+							<img src="../images/Data-Science.jpg" alt="" />
+						</div>
+						<div class="card-content">
+							<h3 class="card-heading">Data Science</h3>
+							<p class="course-details">
+								Dive into data analysis, visualization, and machine learning.
+							</p>
+							<div class="card-btns">
+								<button class="btn card-btn">Learn More</button>
+								<div class="card-action-btn">
+									<i class="fa-regular fa-thumbs-up o-btn"></i>
+									<i class="fa-regular fa-heart o-btn"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="course-card">
+						<div class="card-image">
+							<img src="../images/Graphic-Designing.jpg" alt="" />
+						</div>
+						<div class="card-content">
+							<h3 class="card-heading">Graphic Designing</h3>
+							<p class="course-details">
+								Unleash your creativity and learn the principles of design and
+								visual communication.
+							</p>
+							<div class="card-btns">
+								<button class="btn card-btn">Learn More</button>
+								<div class="card-action-btn">
+									<i class="fa-regular fa-thumbs-up o-btn"></i>
+									<i class="fa-regular fa-heart o-btn"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="course-card">
+						<div class="card-image">
+							<img src="../images/Digital-Marketing.jpg" alt="" />
+						</div>
+						<div class="card-content">
+							<h3 class="card-heading">Digital Marketing</h3>
+							<p class="course-details">
+								Understand the fundamentals of digital marketing and how to
+								create effective campaigns.
+							</p>
+							<div class="card-btns">
+								<button class="btn card-btn">Learn More</button>
+								<div class="card-action-btn">
+									<i class="fa-regular fa-thumbs-up o-btn"></i>
+									<i class="fa-regular fa-heart o-btn"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="course-card">
+						<div class="card-image">
+							<img src="../images/Creative -riting.jpg" alt="" />
+						</div>
+						<div class="card-content">
+							<h3 class="card-heading">Creative Writing</h3>
+							<p class="course-details">
+								Develop your writing skills and learn how to craft compelling
+								stories and content.
+							</p>
+							<div class="card-btns">
+								<button class="btn card-btn">Learn More</button>
+								<div class="card-action-btn">
+									<i class="fa-regular fa-thumbs-up o-btn"></i>
+									<i class="fa-regular fa-heart o-btn"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--			
+				About Section 
+			-->
+			<section id="about-section" class="section">
+				<div class="container">
+					<div class="about-content">
+						<h2 class="section-heading">About Us</h2>
+						<div class="about-section-details">
+							<p class="about-para">
+								Welcome to Learning ! We are dedicated to providing high-quality
+								online courses in various fields
+							</p>
+							<p class="about-para">
+								Our courses are designed by industry experts and are suitable
+								for learners of all skill levels. Whether you are a beginner or
+								an experienced professional, we have something for everyone.
+							</p>
+							<p class="about-para last-para">
+								Join us today and take the first step towards achieving your
+								learning goals!
+							</p>
+						</div>
+					</div>
+					<div class="reviews">
+						<h3 class="reviews-heading">
+							Reviews
+							<div class="slide-btns">
+								<i class="fa-solid fa-chevron-left" id="slide-left"></i>
+								<i class="fa-solid fa-chevron-right" id="slide-right"></i>
+							</div>
+						</h3>
+
+						<div class="reviews-card-container">
+							<div class="review-card">
+								<img src="../images/card-1.png" alt="" />
+								<h4 class="reviewr-name">Kaleem Sipra</h4>
+								<h5 class="reviewr-work">MERN Developer</h5>
+								<p class="reviewr-review">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Cumque corporis fuga dolor quae placeat magni accusantium rem
+									iste nulla aperiam facilis.
+								</p>
+							</div>
+							<div class="review-card">
+								<img src="../images/reveiw-img8.jpg" alt="" />
+								<h4 class="reviewr-name">Ajmal Khan</h4>
+								<h5 class="reviewr-work">MEAN Developer</h5>
+								<p class="reviewr-review">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Cumque corporis fuga dolor quae placeat magni accusantium rem
+									iste nulla aperiam facilis.
+								</p>
+							</div>
+							<div class="review-card">
+								<img src="../images/reveiw-img7.jpg" alt="" />
+								<h4 class="reviewr-name">Rao Amir</h4>
+								<h5 class="reviewr-work">Content Creater</h5>
+								<p class="reviewr-review">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Cumque corporis fuga dolor quae placeat magni accusantium rem
+									iste nulla aperiam facilis.
+								</p>
+							</div>
+							<div class="review-card">
+								<img src="../images/reveiw-img6.jpg" alt="" />
+								<h4 class="reviewr-name">Altaf Husain</h4>
+								<h5 class="reviewr-work">Video Editor</h5>
+								<p class="reviewr-review">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Cumque corporis fuga dolor quae placeat magni accusantium rem
+									iste nulla aperiam facilis.
+								</p>
+							</div>
+							<div class="review-card">
+								<img src="../images/reveiw-img5.jpg" alt="" />
+								<h4 class="reviewr-name">Rohail Saqib</h4>
+								<h5 class="reviewr-work">Graphic designer</h5>
+								<p class="reviewr-review">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Cumque corporis fuga dolor quae placeat magni accusantium rem
+									iste nulla aperiam facilis.
+								</p>
+							</div>
+							<div class="review-card">
+								<img src="../images/reveiw-img4.jpg" alt="" />
+								<h4 class="reviewr-name">Ramzan Akram</h4>
+								<h5 class="reviewr-work">Hacker</h5>
+								<p class="reviewr-review">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Cumque corporis fuga dolor quae placeat magni accusantium rem
+									iste nulla aperiam facilis.
+								</p>
+							</div>
+							<div class="review-card">
+								<img src="../images/reveiw-img3.jpg" alt="" />
+								<h4 class="reviewr-name">Asad Ullah</h4>
+								<h5 class="reviewr-work">Data Scientest</h5>
+								<p class="reviewr-review">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Cumque corporis fuga dolor quae placeat magni accusantium rem
+									iste nulla aperiam facilis.
+								</p>
+							</div>
+							<div class="review-card">
+								<img src="../images/reveiw-img2.jpg" alt="" />
+								<h4 class="reviewr-name">Ali Ahmad</h4>
+								<h5 class="reviewr-work">App Developer</h5>
+								<p class="reviewr-review">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Cumque corporis fuga dolor quae placeat magni accusantium rem
+									iste nulla aperiam facilis.
+								</p>
+							</div>
+							<div class="review-card">
+								<img src="../images/reveiw-img1.jpg" alt="" />
+								<h4 class="reviewr-name">Tarik Ahamd</h4>
+								<h5 class="reviewr-work">Backend Developer</h5>
+								<p class="reviewr-review">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Cumque corporis fuga dolor quae placeat magni accusantium rem
+									iste nulla aperiam facilis.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="contact-section" class="section">
+				<h2 class="section-heading">Contact Us</h2>
+				<form action="#">
+					<label for="Name">Name</label>
+					<input type="text" id="Name" placeholder="Enter Your Name" required />
+					<label for="email">Email</label>
+					<input
+						type="email"
+						id="email"
+						placeholder="Enter Your Name"
+						required
+					/>
+					<label for="message">Message</label>
+					<textarea
+						name="message"
+						id="message"
+						placeholder="Type Your Message..."
+						required
+					></textarea>
+					<button class="btn contact-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+				</form>
+			</section>
+			<footer>
+				<div class="social-media-icons">
+					<i class="fa-brands fa-facebook"></i>
+					<i class="fa-brands fa-x-twitter"></i>
+					<i class="fa-brands fa-pinterest"></i>
+				</div>
+				<div class="email">
+					<p>Email: <span>LearnAnyWhere@gmail.com</span></p>
+				</div>
+				<div class="bottom-line">
+					<p>
+						&copy; 2024 <a href="#">Learnanywhere.com</a> All rights reserved.
+					</p>
+				</div>
+				<a href="#home-section" class="ftr-btn"><i class="fa-solid fa-angle-up"></i></a>
+			</footer>
+		</main>
+		
+
+		<script src="../javascript/app.js"></script>
+		<script src="../javascript/about-section.js"></script>
+	</body>
+</html>

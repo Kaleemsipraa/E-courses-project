@@ -1,0 +1,115 @@
+
+/*
+	 ====> About section 
+*/
+
+#about-section {
+	/* min-height: 100vh; */
+	background-color: var(--bg-color);
+	/* margin-bottom: 30px; */
+	position: relative;
+	user-select: none;
+}
+.reviews {
+	position: relative;
+}
+
+
+.about-section-details {
+	font-size: 2rem;
+	margin-bottom: 20px;
+	color: var(--dark-secondary-color);
+}
+.about-para {
+	margin-top: 8px;
+}
+.last-para {
+	color: var(--dark-primary-color);
+}
+
+.reviews-heading {
+	font-size: 3rem;
+	color: var(--dark-secondary-color);
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	position: relative;
+}
+
+.reviews-card-container {
+	/* margin-top: 10px; */
+	width: 100%;
+	height: 240px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	overflow-x: hidden;
+	position: relative;
+	padding: 0px 10px;
+
+}
+
+
+
+.slide-btns {
+	position: absolute;
+	top: 0px;
+	text-align: center;
+	right: 10px;
+	
+}
+
+.slide-btns i {
+	font-size: 2rem;
+	color: var(--bg-color);
+	background-color: var(--primary-color);
+	padding: 10px 13px;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: ease all 0.5s;
+}
+.slide-btns i:hover{
+	background-color: var(--dark-primary-color);
+	
+}
+
+.fa-chevron-left {
+	margin-right: 50px;
+}
+.review-card {
+	min-width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 5px 12px;
+	background-color: var(--dark-primary-color);
+	border-radius: 5px;
+	box-shadow: 0px 0px 50px var(--bg-color);
+}
+.review-card img {
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	border: 2px solid var(--bg-color);
+	padding: 2px;
+	margin-top: 4px;
+	object-fit: cover;
+}
+
+.reviewr-name {
+	font-size: 2rem;
+	color: var(--bg-color);
+}
+
+.reviewr-work {
+	font-size: 1.1rem;
+	color: var(--primary-color);
+}
+.reviewr-review {
+	font-size: 1rem;
+	text-align: center;
+	color: var(--second-bg-color);
+	margin: 8px 0px;
+}

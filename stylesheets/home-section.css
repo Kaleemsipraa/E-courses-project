@@ -1,0 +1,94 @@
+
+/*
+ ==> Home Section  
+ */
+
+ #home-section {
+	width: 100%;
+	height: calc(100vh - 70px);
+	/* margin-top: 50px; */
+	display: flex;
+	background-color: var(--bg-color);
+}
+.left {
+	width: 45%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.home-heading {
+	color: var(--text-color);
+	font-size: 3rem;
+}
+
+.home-heading span {
+	background-color: var(--primary-color);
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding: 10px;
+	font-size: 2.8rem;
+	margin-top: 10px;
+	display: inline-block;
+}
+.left .courses-name {
+	color: var(--text-color);
+	font-size: 2.8rem;
+	margin: 30px 0px;
+	overflow: hidden;
+}
+
+.courses-name .first-text {
+	color: var(--dark-primary-color);
+	font-weight: 600;
+}
+.text.sec-text {
+	color: var(--text-color);
+	position: relative;
+}
+.text.sec-text::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: var(--bg-color);
+	border-left: 3px solid var(--dark-primary-color);
+	animation: animate 3s infinite;
+	/* steps(15) */
+}
+@keyframes animate {
+	40%,
+	60% {
+		left: calc(100% + 4px);
+	}
+	100% {
+		left: 0%;
+	}
+}
+
+.left .details {
+	font-size: 2rem;
+	margin-bottom: 20px;
+	color: var(--dark-secondary-color);
+}
+
+.details .details-para {
+	color: var(--text-color);
+}
+
+.enroll-btn {
+	margin-top: 20px;
+	font-size: 2.2rem;
+}
+.right {
+	width: 55%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.right img {
+	width: 100%;
+}

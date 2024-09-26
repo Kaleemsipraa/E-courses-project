@@ -1,0 +1,143 @@
+/* 
+ ===> widht 1050px
+ */
+
+@media (max-width: 1050px) {
+	section {
+		padding: 0px 60px;
+	}
+	#home-section {
+		flex-direction: column;
+		/* margin-top: 50px; */
+		text-align: center;
+	}
+	.left,
+	.right {
+		width: 100%;
+	}
+	.menu {
+		display: block;
+		font-size: 3rem;
+		font-weight: 600;
+	}
+	nav {
+		display: flex;
+		align-items: center;
+		padding: 15px 60px;
+	}
+	.navlinks {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		position: absolute;
+		top: 70px;
+		left: 100%;
+		background-color: gray;
+		width: 100%;
+		max-width: 100vw;
+		/* height: 88vh; */
+		height: calc(100vh - 60px);
+		transition: all 0.5s linear;
+		gap: 40px;
+		color: white;
+		z-index: 100;
+	}
+	.link {
+		display: block;
+		color: white;
+	}
+	.active {
+		left: 0;
+	}
+
+	nav .rigesteration {
+		flex-direction: column;
+	}
+}
+
+/* 
+ ===> widht 950px
+ */
+
+@media (max-width: 950px) {
+	section {
+		padding: 0px 50px;
+		
+	}
+	nav {
+		padding: 15px 50px;
+	}
+	#home-section{
+		text-align: center;
+	}
+
+	.left,
+	.right {
+		width: 100%;
+	}
+	.link {
+		display: block;
+		color: white;
+		font-size: 3rem;
+	}
+}
+
+/* 
+ ===> widht 550px
+ */
+
+@media (max-width: 550px) {
+	html,
+	body {
+		font-size: 50.5%;
+	}
+	#home-section {
+		flex-direction: column;
+		margin-top: 0px;
+	}
+	section {
+		padding: 0px 20px;
+	}
+	nav {
+		padding: 15px 20px;
+	}
+
+	.left,
+	.right {
+		width: 100%;
+	}
+	.link {
+		display: block;
+		color: white;
+	}
+}
+
+/* 
+ ===> widht 350px
+ */
+
+@media (max-width: 380px) {
+	html,
+	body {
+		font-size: 40.5%;
+	}
+	section {
+		padding: 0px 15px;
+	}
+	nav {
+		padding: 15px 15px;
+	}
+	.left,
+	.right {
+		width: 100%;
+	}
+	.link {
+		display: block;
+		color: white;
+	}
+	.btn{
+		margin-top: 50px;
+		font-size: 3rem;
+	}
+}
